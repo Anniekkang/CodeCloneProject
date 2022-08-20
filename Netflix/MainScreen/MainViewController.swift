@@ -9,12 +9,12 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    let mainView = CustomView()
     
-    let logoImageView = UIImageView()
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.view = mainView
         
     }
     

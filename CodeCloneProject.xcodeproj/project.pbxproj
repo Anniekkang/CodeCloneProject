@@ -16,6 +16,13 @@
 		9EAA477D28B0CB010074E1AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA477C28B0CB010074E1AD /* MainViewController.swift */; };
 		9EAA478128B0CB3C0074E1AD /* NetflixMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA478028B0CB3C0074E1AD /* NetflixMain.storyboard */; };
 		9EAA478528B11A4A0074E1AD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9EAA478428B11A4A0074E1AD /* SnapKit */; };
+		9EAA478728B1208D0074E1AD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA478628B1208D0074E1AD /* CustomView.swift */; };
+		9EAA478928B121790074E1AD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA478828B121790074E1AD /* SignUpViewController.swift */; };
+		9EAA478B28B121890074E1AD /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA478A28B121890074E1AD /* SignUp.storyboard */; };
+		9EAA478F28B1237A0074E1AD /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA478E28B1237A0074E1AD /* BaseView.swift */; };
+		9EAA479128B123860074E1AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479028B123860074E1AD /* BaseViewController.swift */; };
+		9EAA479328B124840074E1AD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479228B124840074E1AD /* SignUpView.swift */; };
+		9EAA479828B125FD0074E1AD /* SignUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479728B125FD0074E1AD /* SignUpTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,13 @@
 		9E3BF7D128ACCE7F00AB43B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EAA477C28B0CB010074E1AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9EAA478028B0CB3C0074E1AD /* NetflixMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NetflixMain.storyboard; sourceTree = "<group>"; };
+		9EAA478628B1208D0074E1AD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		9EAA478828B121790074E1AD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9EAA478A28B121890074E1AD /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		9EAA478E28B1237A0074E1AD /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		9EAA479028B123860074E1AD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9EAA479228B124840074E1AD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9EAA479728B125FD0074E1AD /* SignUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +91,41 @@
 		9EAA477B28B0CAE90074E1AD /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
-				9EAA477C28B0CB010074E1AD /* MainViewController.swift */,
-				9EAA478028B0CB3C0074E1AD /* NetflixMain.storyboard */,
+				9EAA479428B124E20074E1AD /* Base */,
+				9EAA478D28B121B60074E1AD /* SignUpScreen */,
+				9EAA478C28B121AA0074E1AD /* MainScreen */,
 			);
 			path = Netflix;
+			sourceTree = "<group>";
+		};
+		9EAA478C28B121AA0074E1AD /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9EAA478628B1208D0074E1AD /* CustomView.swift */,
+				9EAA478028B0CB3C0074E1AD /* NetflixMain.storyboard */,
+				9EAA477C28B0CB010074E1AD /* MainViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		9EAA478D28B121B60074E1AD /* SignUpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9EAA479728B125FD0074E1AD /* SignUpTextField.swift */,
+				9EAA479228B124840074E1AD /* SignUpView.swift */,
+				9EAA478828B121790074E1AD /* SignUpViewController.swift */,
+				9EAA478A28B121890074E1AD /* SignUp.storyboard */,
+			);
+			path = SignUpScreen;
+			sourceTree = "<group>";
+		};
+		9EAA479428B124E20074E1AD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9EAA478E28B1237A0074E1AD /* BaseView.swift */,
+				9EAA479028B123860074E1AD /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +196,7 @@
 				9E3BF7D028ACCE7F00AB43B5 /* LaunchScreen.storyboard in Resources */,
 				9E3BF7CD28ACCE7F00AB43B5 /* Assets.xcassets in Resources */,
 				9E3BF7CB28ACCE7E00AB43B5 /* Main.storyboard in Resources */,
+				9EAA478B28B121890074E1AD /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAA478928B121790074E1AD /* SignUpViewController.swift in Sources */,
+				9EAA479828B125FD0074E1AD /* SignUpTextField.swift in Sources */,
+				9EAA478728B1208D0074E1AD /* CustomView.swift in Sources */,
 				9E3BF7C828ACCE7E00AB43B5 /* ViewController.swift in Sources */,
 				9E3BF7C428ACCE7E00AB43B5 /* AppDelegate.swift in Sources */,
+				9EAA478F28B1237A0074E1AD /* BaseView.swift in Sources */,
+				9EAA479128B123860074E1AD /* BaseViewController.swift in Sources */,
 				9E3BF7C628ACCE7E00AB43B5 /* SceneDelegate.swift in Sources */,
+				9EAA479328B124840074E1AD /* SignUpView.swift in Sources */,
 				9EAA477D28B0CB010074E1AD /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
