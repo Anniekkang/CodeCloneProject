@@ -13,16 +13,19 @@
 		9E3BF7CB28ACCE7E00AB43B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3BF7C928ACCE7E00AB43B5 /* Main.storyboard */; };
 		9E3BF7CD28ACCE7F00AB43B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3BF7CC28ACCE7F00AB43B5 /* Assets.xcassets */; };
 		9E3BF7D028ACCE7F00AB43B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3BF7CE28ACCE7F00AB43B5 /* LaunchScreen.storyboard */; };
-		9EAA477D28B0CB010074E1AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA477C28B0CB010074E1AD /* MainViewController.swift */; };
 		9EAA478128B0CB3C0074E1AD /* NetflixMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA478028B0CB3C0074E1AD /* NetflixMain.storyboard */; };
 		9EAA478528B11A4A0074E1AD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9EAA478428B11A4A0074E1AD /* SnapKit */; };
-		9EAA478728B1208D0074E1AD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA478628B1208D0074E1AD /* CustomView.swift */; };
 		9EAA478928B121790074E1AD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA478828B121790074E1AD /* SignUpViewController.swift */; };
 		9EAA478B28B121890074E1AD /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAA478A28B121890074E1AD /* SignUp.storyboard */; };
 		9EAA478F28B1237A0074E1AD /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA478E28B1237A0074E1AD /* BaseView.swift */; };
 		9EAA479128B123860074E1AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479028B123860074E1AD /* BaseViewController.swift */; };
 		9EAA479328B124840074E1AD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479228B124840074E1AD /* SignUpView.swift */; };
 		9EAA479828B125FD0074E1AD /* SignUpTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479728B125FD0074E1AD /* SignUpTextField.swift */; };
+		9EAA479A28B17B4A0074E1AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479928B17B4A0074E1AD /* MainViewController.swift */; };
+		9EAA479C28B17BB60074E1AD /* PosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479B28B17BB60074E1AD /* PosterImageView.swift */; };
+		9EAA479E28B17C970074E1AD /* MainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479D28B17C970074E1AD /* MainLabel.swift */; };
+		9EAA47A028B17D400074E1AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA479F28B17D400074E1AD /* MainView.swift */; };
+		9EC92FB328B191960076172D /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC92FB228B191960076172D /* MovieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,15 +37,18 @@
 		9E3BF7CC28ACCE7F00AB43B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E3BF7CF28ACCE7F00AB43B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E3BF7D128ACCE7F00AB43B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EAA477C28B0CB010074E1AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9EAA478028B0CB3C0074E1AD /* NetflixMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NetflixMain.storyboard; sourceTree = "<group>"; };
-		9EAA478628B1208D0074E1AD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		9EAA478828B121790074E1AD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9EAA478A28B121890074E1AD /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		9EAA478E28B1237A0074E1AD /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		9EAA479028B123860074E1AD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9EAA479228B124840074E1AD /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		9EAA479728B125FD0074E1AD /* SignUpTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTextField.swift; sourceTree = "<group>"; };
+		9EAA479928B17B4A0074E1AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9EAA479B28B17BB60074E1AD /* PosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageView.swift; sourceTree = "<group>"; };
+		9EAA479D28B17C970074E1AD /* MainLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLabel.swift; sourceTree = "<group>"; };
+		9EAA479F28B17D400074E1AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9EC92FB228B191960076172D /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +107,12 @@
 		9EAA478C28B121AA0074E1AD /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
-				9EAA478628B1208D0074E1AD /* CustomView.swift */,
 				9EAA478028B0CB3C0074E1AD /* NetflixMain.storyboard */,
-				9EAA477C28B0CB010074E1AD /* MainViewController.swift */,
+				9EAA479928B17B4A0074E1AD /* MainViewController.swift */,
+				9EAA479F28B17D400074E1AD /* MainView.swift */,
+				9EAA479B28B17BB60074E1AD /* PosterImageView.swift */,
+				9EAA479D28B17C970074E1AD /* MainLabel.swift */,
+				9EC92FB228B191960076172D /* MovieModel.swift */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -208,15 +217,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EAA478928B121790074E1AD /* SignUpViewController.swift in Sources */,
+				9EAA47A028B17D400074E1AD /* MainView.swift in Sources */,
+				9EAA479E28B17C970074E1AD /* MainLabel.swift in Sources */,
 				9EAA479828B125FD0074E1AD /* SignUpTextField.swift in Sources */,
-				9EAA478728B1208D0074E1AD /* CustomView.swift in Sources */,
 				9E3BF7C828ACCE7E00AB43B5 /* ViewController.swift in Sources */,
 				9E3BF7C428ACCE7E00AB43B5 /* AppDelegate.swift in Sources */,
+				9EC92FB328B191960076172D /* MovieModel.swift in Sources */,
 				9EAA478F28B1237A0074E1AD /* BaseView.swift in Sources */,
 				9EAA479128B123860074E1AD /* BaseViewController.swift in Sources */,
+				9EAA479A28B17B4A0074E1AD /* MainViewController.swift in Sources */,
 				9E3BF7C628ACCE7E00AB43B5 /* SceneDelegate.swift in Sources */,
 				9EAA479328B124840074E1AD /* SignUpView.swift in Sources */,
-				9EAA477D28B0CB010074E1AD /* MainViewController.swift in Sources */,
+				9EAA479C28B17BB60074E1AD /* PosterImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
